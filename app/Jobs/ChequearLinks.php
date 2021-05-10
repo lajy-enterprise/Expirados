@@ -46,7 +46,7 @@ class ChequearLinks implements ShouldQueue
     public function handle()
     {
 
-        $Enlaces = DB::table('Enlaces')->pluck('Enlaces');
+        $Enlaces = DB::table('enlaces')->pluck('enlaces');
         
         $contar = count($Enlaces);
 

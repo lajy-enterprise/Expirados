@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Enlaces extends Model
 {
     // use HasFactory;
-    protected $table = 'Enlaces';
+    protected $table = 'enlaces';
     
     public function usuarios()
         {
